@@ -1,0 +1,115 @@
+/* General styles */
+body {
+    padding-top: 56px; /* Adjust the top padding to fit the navbar */
+    background-color: #f0f0f5;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+/* Navbar styles */
+.navbar {
+    background-color: #333; /* Dark background for contrast */
+}
+
+.navbar a {
+    color: #f8f9fa; /* Light color for text */
+    text-decoration: none; /* Remove underline */
+    padding: 15px 20px; /* Spacing around links */
+    display: inline-block;
+}
+
+.navbar a:hover {
+    color: #ffd700; /* Highlight color on hover */
+}
+
+/* Jumbotron styles */
+.jumbotron {
+    background-color: #e9ecef;
+    color: #333;
+    padding: 3rem 2rem;
+    margin-bottom: 2rem;
+    border-radius: 0.5rem;
+}
+
+.jumbotron h1 {
+    font-size: 2.5rem;
+}
+
+.jumbotron p {
+    font-size: 1.2rem;
+}
+
+/* Container styles */
+.container {
+    max-width: 960px;
+}
+
+/* Form styles */
+.form-group {
+    margin-bottom: 1.5rem;
+}
+
+.btn {
+    margin-top: 1rem;
+    background-color: #007bff;
+    border: none;
+    color: #fff;
+    transition: background-color 0.3s ease;
+}
+
+.btn:hover {
+    background-color: #0056b3;
+}
+
+.btn-primary {
+    background-color: #007bff;
+    border-color: #007bff;
+}
+
+.btn-primary:hover {
+    background-color: #0056b3;
+    border-color: #004085;
+}
+
+/* Feature section styles */
+.features {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    margin-top: 2rem;
+}
+
+.feature-box {
+    background-color: #fff;
+    border-radius: 0.5rem;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    margin: 1rem;
+    padding: 1.5rem;
+    text-align: center;
+    transition: transform 0.3s ease;
+    width: 45%;
+}
+
+.feature-box:hover {
+    transform: translateY(-10px);
+}
+
+/* Animation styles */
+@keyframes fadeIn {
+    0% { opacity: 0; }
+    100% { opacity: 1; }
+}
+
+.fade-in {
+    animation: fadeIn 1.5s ease-in-out;
+}
+
+/* Capture image styles */
+#video {
+    width: 100%;
+    border-radius: 0.5rem;
+    margin-top: 1rem;
+}
+
+#canvas {
+    display: none;
+}
